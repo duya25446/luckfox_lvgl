@@ -1,0 +1,25 @@
+CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o: \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_os_none.c \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_os.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/lv_types.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdint.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../lv_conf_kconfig.h \
+ /home/duya25446/luckfox_lvgl/lvgl/lv_conf.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/lv_types.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stddef.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_os_none.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/lv_assert.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/lv_log.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/lv_types.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/../stdlib/lv_mem.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/../stdlib/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/osal/../misc/../stdlib/../misc/lv_types.h

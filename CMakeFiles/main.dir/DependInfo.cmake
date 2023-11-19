@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/duya25446/luckfox_lib/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
+  "/home/duya25446/luckfox_lvgl/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/duya25446/luckfox_lib/CMakeFiles/lib_src.dir/DependInfo.cmake"
+  "/home/duya25446/luckfox_lvgl/CMakeFiles/lib_src.dir/DependInfo.cmake"
+  "/home/duya25446/luckfox_lvgl/CMakeFiles/lvgl_src.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

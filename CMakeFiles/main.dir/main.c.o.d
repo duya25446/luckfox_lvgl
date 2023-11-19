@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/main.c.o: /home/duya25446/luckfox_lib/main.c \
+CMakeFiles/main.dir/main.c.o: /home/duya25446/luckfox_lvgl/main.c \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
@@ -36,7 +36,7 @@ CMakeFiles/main.dir/main.c.o: /home/duya25446/luckfox_lib/main.c \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/environments.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h \
- /home/duya25446/luckfox_lib/lib/include/lib_uart.h \
+ /home/duya25446/luckfox_lvgl/lib/include/lib_uart.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h \
@@ -55,15 +55,15 @@ CMakeFiles/main.dir/main.c.o: /home/duya25446/luckfox_lib/main.c \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/signal.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/setjmp.h \
- /home/duya25446/luckfox_lib/lib/include/lib_gpio.h \
- /home/duya25446/luckfox_lib/lib/include/main.h \
+ /home/duya25446/luckfox_lvgl/lib/include/lib_gpio.h \
+ /home/duya25446/luckfox_lvgl/lib/include/main.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdint.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h \
- /home/duya25446/luckfox_lib/lib/include/lcd.h \
- /home/duya25446/luckfox_lib/lib/include/main.h \
- /home/duya25446/luckfox_lib/lib/include/lcd_init.h \
- /home/duya25446/luckfox_lib/lib/include/lib_gpio.h \
- /home/duya25446/luckfox_lib/lib/include/lib_spi.h \
+ /home/duya25446/luckfox_lvgl/lib/include/lcd.h \
+ /home/duya25446/luckfox_lvgl/lib/include/main.h \
+ /home/duya25446/luckfox_lvgl/lib/include/lcd_init.h \
+ /home/duya25446/luckfox_lvgl/lib/include/lib_gpio.h \
+ /home/duya25446/luckfox_lvgl/lib/include/lib_spi.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/spi/spidev.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/types.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/types.h \

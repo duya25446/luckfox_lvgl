@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/lib/include",
-                "${workspaceFolder}/lib/src"
+                "${workspaceFolder}/lib/src",
+                "${workspaceFolder}/lvgl/**"
             ],
             "defines": [],
             "cStandard": "c17",

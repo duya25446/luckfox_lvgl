@@ -4,7 +4,7 @@
 # compile C with luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/duya25446/luckfox_lib/lib/include -I/home/duya25446/luckfox_lib/.
+C_INCLUDES = -I/home/duya25446/luckfox_lvgl/lib/include -I/home/duya25446/luckfox_lvgl/. -I/home/duya25446/luckfox_lvgl -I/home/duya25446/luckfox_lvgl/lvgl
 
 C_FLAGS = 
 

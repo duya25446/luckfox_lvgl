@@ -1,6 +1,6 @@
 CMakeFiles/lib_src.dir/lib/src/lib_uart.c.o: \
- /home/duya25446/luckfox_lib/lib/src/lib_uart.c \
- /home/duya25446/luckfox_lib/lib/include/lib_uart.h \
+ /home/duya25446/luckfox_lvgl/lib/src/lib_uart.c \
+ /home/duya25446/luckfox_lvgl/lib/include/lib_uart.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
