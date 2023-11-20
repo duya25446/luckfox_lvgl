@@ -10,10 +10,9 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o: \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stddef.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdbool.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/misc/../stdlib/lv_mem.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/misc/../stdlib/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/misc/../stdlib/../misc/lv_types.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/misc/../stdlib/../lv_conf_kconfig.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_mem.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/misc/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/misc/../lv_conf_kconfig.h \
  /home/duya25446/luckfox_lvgl/lvgl/lv_conf.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/misc/../stdlib/../misc/lv_types.h
+ /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_types.h

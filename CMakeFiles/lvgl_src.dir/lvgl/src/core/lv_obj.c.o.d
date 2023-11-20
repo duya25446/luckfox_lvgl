@@ -2,7 +2,6 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o: \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj.c \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_types.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdint.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
@@ -25,114 +24,229 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o: \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_assert.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_log.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_types.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../stdlib/lv_mem.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../stdlib/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_mem.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../stdlib/../misc/lv_types.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_math.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_palette.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_color_op.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_area.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_anim.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_timer.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../tick/lv_tick.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../tick/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_ll.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_text.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_txt.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdarg.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../stdlib/lv_sprintf.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_printf.h \
  /home/duya25446/luckfox_lvgl/luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/inttypes.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_bidi.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/lv_layout.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/flex/lv_flex.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/flex/../../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/flex/../../misc/lv_area.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/grid/lv_grid.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/grid/../../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../layouts/grid/../../misc/lv_area.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_style_gen.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_types.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_area.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_color.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_assert.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_property.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/lv_hal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/lv_hal_disp.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/lv_hal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_style.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_txt.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_img_decoder.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_img_buf.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_color.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_area.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_fs.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_types.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_img_cache.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_rect.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/sw/lv_draw_sw_gradient.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/sw/../../misc/lv_color.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/sw/../../misc/lv_style.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/sw/lv_draw_sw_dither.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/sw/../../core/lv_obj_pos.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/sw/../../core/../misc/lv_area.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_label.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_bidi.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_img.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_line.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_triangle.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_arc.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_mask.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/../misc/lv_math.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_transform.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../draw/lv_draw_layer.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/lv_color.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/lv_area.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/lv_ll.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/lv_timer.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/../hal/lv_hal_tick.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../misc/../hal/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/lv_hal_indev.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/lv_hal_tick.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_tree.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_anim.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/lv_display.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../misc/lv_timer.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../misc/lv_event.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../misc/lv_types.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../misc/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../misc/lv_color.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_style.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_text.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_profiler.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_cache.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/../osal/lv_os.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/../osal/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/../osal/../misc/lv_types.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/../osal/lv_os_none.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_image_decoder.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_image_buf.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_color.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_area.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_fs.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_types.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../osal/lv_os.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_buf.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_rect.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/sw/lv_draw_sw_gradient.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/sw/../../misc/lv_color.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/sw/../../misc/lv_style.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_label.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/../misc/lv_bidi.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_image.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_arc.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_line.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_triangle.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../draw/lv_draw_mask.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_pos.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_scroll.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_anim.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_style.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_bidi.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_style_gen.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../core/lv_obj_style.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_draw.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../draw/lv_draw.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_class.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_event.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_event.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/lv_indev.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../core/lv_group.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../core/../lv_conf_internal.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../core/../misc/lv_ll.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../core/../misc/lv_types.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../misc/lv_area.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../misc/lv_timer.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/../misc/lv_event.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_event.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_group.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/lv_indev_private.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../indev/lv_indev.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_ll.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../hal/lv_hal_indev.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_refr.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/lv_display_private.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/../core/lv_obj.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../display/lv_display.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/lv_theme.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/../core/lv_obj.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/default/lv_theme_default.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/default/../lv_theme.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/mono/lv_theme_mono.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/mono/../lv_theme.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/basic/lv_theme_basic.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/basic/../lv_theme.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../themes/basic/../../display/lv_display.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_disp.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_theme.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_timer.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_async.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_fs.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_gc.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_ll.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_timer.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../draw/lv_img_cache.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../draw/lv_draw_mask.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/../core/lv_obj_pos.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_math.h \
  /home/duya25446/luckfox_lvgl/lvgl/src/core/../misc/lv_log.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../tick/lv_tick.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../stdlib/lv_string.h \
- /home/duya25446/luckfox_lvgl/lvgl/src/core/../stdlib/../lv_conf_internal.h
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/lv_extra.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/layouts/lv_layouts.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/layouts/flex/lv_flex.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/layouts/flex/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/layouts/grid/lv_grid.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/layouts/grid/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/lv_libs.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/bmp/lv_bmp.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/bmp/../../../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/fsdrv/lv_fsdrv.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/fsdrv/../../../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/png/lv_png.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/png/../../../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/lv_gif.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_log.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_timer.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_math.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_mem.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_async.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_anim_timeline.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_anim.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/misc/lv_printf.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/hal/lv_hal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/core/lv_group.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/core/lv_indev.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/core/lv_refr.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/core/lv_disp.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/core/lv_theme.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font_loader.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font_fmt_txt.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/font/lv_font.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_arc.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btn.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_img.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_fs.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../draw/lv_draw.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_label.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../font/lv_font.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../font/lv_symbol_def.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_txt.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_line.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_table.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_label.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_checkbox.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../misc/lv_anim.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btn.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_slider.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_bar.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_btnmatrix.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_dropdown.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_label.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_roller.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_textarea.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_canvas.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../widgets/lv_img.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/../draw/lv_draw_img.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/widgets/lv_switch.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/draw/lv_draw.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/lv_api_map.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/gif/../../../../src/extra/lv_extra.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/qrcode/lv_qrcode.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/qrcode/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/sjpg/lv_sjpg.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/freetype/lv_freetype.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/freetype/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/rlottie/lv_rlottie.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/rlottie/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/ffmpeg/lv_ffmpeg.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/libs/ffmpeg/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/lv_others.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/snapshot/lv_snapshot.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/snapshot/../../../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/snapshot/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/monkey/lv_monkey.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/monkey/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/gridnav/lv_gridnav.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/gridnav/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/fragment/lv_fragment.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/fragment/../../../lv_conf_internal.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/imgfont/lv_imgfont.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/imgfont/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/msg/lv_msg.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/msg/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/ime/lv_ime_pinyin.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/others/ime/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/lv_themes.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/default/lv_theme_default.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/default/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/mono/lv_theme_mono.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/mono/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/basic/lv_theme_basic.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/themes/basic/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/lv_widgets.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/animimg/lv_animimg.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/animimg/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/calendar/lv_calendar.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/calendar/../../../widgets/lv_btnmatrix.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/calendar/lv_calendar_header_arrow.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/calendar/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/calendar/lv_calendar_header_dropdown.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/chart/lv_chart.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/chart/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/keyboard/lv_keyboard.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/keyboard/../../../widgets/lv_btnmatrix.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/list/lv_list.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/list/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/list/../../layouts/flex/lv_flex.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/menu/lv_menu.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/menu/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/msgbox/lv_msgbox.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/msgbox/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/meter/lv_meter.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/meter/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/spinbox/lv_spinbox.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/spinbox/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/spinner/lv_spinner.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/spinner/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/tabview/lv_tabview.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/tabview/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/tileview/lv_tileview.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/tileview/../../../core/lv_obj.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/win/lv_win.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/win/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/colorwheel/lv_colorwheel.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/colorwheel/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/led/lv_led.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/led/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/imgbtn/lv_imgbtn.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/imgbtn/../../../lvgl.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/span/lv_span.h \
+ /home/duya25446/luckfox_lvgl/lvgl/src/core/../extra/widgets/span/../../../lvgl.h

@@ -69,10 +69,38 @@ include CMakeFiles/lvgl_src.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lvgl_src.dir/flags.make
 
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o: lvgl/src/core/lv_disp.c
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_disp.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_disp.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_disp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o: lvgl/src/core/lv_event.c
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_event.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_event.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_event.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o: lvgl/src/core/lv_group.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_group.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.i: cmake_force
@@ -83,10 +111,38 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_group.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o: lvgl/src/core/lv_indev.c
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o: lvgl/src/core/lv_indev_scroll.c
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev_scroll.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev_scroll.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_indev_scroll.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o: lvgl/src/core/lv_obj.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.i: cmake_force
@@ -100,7 +156,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o: lvgl/src/core/lv_obj_class.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_class.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.i: cmake_force
@@ -114,7 +170,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o: lvgl/src/core/lv_obj_draw.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_draw.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.i: cmake_force
@@ -125,38 +181,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_draw.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o: lvgl/src/core/lv_obj_event.c
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_event.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_event.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_event.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o: lvgl/src/core/lv_obj_id_builtin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_id_builtin.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_id_builtin.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_id_builtin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o: lvgl/src/core/lv_obj_pos.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_pos.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.i: cmake_force
@@ -167,24 +195,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_pos.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o: lvgl/src/core/lv_obj_property.c
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_property.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_property.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_property.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o: lvgl/src/core/lv_obj_scroll.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_scroll.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o: lvgl/src/core/lv_obj_style.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_style.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o: lvgl/src/core/lv_obj_style_gen.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_style_gen.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o: lvgl/src/core/lv_obj_tree.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_obj_tree.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o: lvgl/src/core/lv_refr.c
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_refr.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.i: cmake_force
@@ -251,220 +265,38 @@ CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_refr.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o: lvgl/src/dev/display/drm/lv_linux_drm.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/display/drm/lv_linux_drm.c
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o: lvgl/src/core/lv_theme.c
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_theme.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/display/drm/lv_linux_drm.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_theme.c > CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/display/drm/lv_linux_drm.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/core/lv_theme.c -o CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o: lvgl/src/dev/display/fb/lv_linux_fbdev.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/display/fb/lv_linux_fbdev.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o: lvgl/src/draw/arm2d/lv_gpu_arm2d.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/display/fb/lv_linux_fbdev.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/arm2d/lv_gpu_arm2d.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/display/fb/lv_linux_fbdev.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o: lvgl/src/dev/evdev/lv_evdev.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/evdev/lv_evdev.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/evdev/lv_evdev.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/evdev/lv_evdev.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o: lvgl/src/dev/nuttx/lv_nuttx_entry.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_entry.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_entry.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_entry.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o: lvgl/src/dev/nuttx/lv_nuttx_fbdev.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o: lvgl/src/dev/nuttx/lv_nuttx_lcd.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_lcd.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_lcd.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_lcd.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o: lvgl/src/dev/nuttx/lv_nuttx_libuv.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_libuv.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_libuv.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_libuv.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o: lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o: lvgl/src/dev/sdl/lv_sdl_keyboard.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_keyboard.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_keyboard.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_keyboard.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o: lvgl/src/dev/sdl/lv_sdl_mouse.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_mouse.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_mouse.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_mouse.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o: lvgl/src/dev/sdl/lv_sdl_mousewheel.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_mousewheel.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_mousewheel.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_mousewheel.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o: lvgl/src/dev/sdl/lv_sdl_window.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_window.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_window.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/sdl/lv_sdl_window.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o: lvgl/src/dev/x11/lv_x11_display.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/x11/lv_x11_display.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/x11/lv_x11_display.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/x11/lv_x11_display.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o: lvgl/src/dev/x11/lv_x11_input.c
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/dev/x11/lv_x11_input.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/dev/x11/lv_x11_input.c > CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/dev/x11/lv_x11_input.c -o CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o: lvgl/src/display/lv_display.c
-CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/display/lv_display.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/display/lv_display.c > CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/display/lv_display.c -o CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/arm2d/lv_gpu_arm2d.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o: lvgl/src/draw/lv_draw.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.i: cmake_force
@@ -478,7 +310,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o: lvgl/src/draw/lv_draw_arc.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_arc.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.i: cmake_force
@@ -489,38 +321,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_arc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o: lvgl/src/draw/lv_draw_buf.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_buf.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o: lvgl/src/draw/lv_draw_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_img.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_buf.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_buf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o: lvgl/src/draw/lv_draw_image.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_image.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_image.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_image.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o: lvgl/src/draw/lv_draw_label.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_label.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.i: cmake_force
@@ -531,10 +349,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_label.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o: lvgl/src/draw/lv_draw_layer.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_layer.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_layer.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_layer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o: lvgl/src/draw/lv_draw_line.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_line.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.i: cmake_force
@@ -548,7 +380,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o: lvgl/src/draw/lv_draw_mask.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_mask.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.i: cmake_force
@@ -562,7 +394,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o: lvgl/src/draw/lv_draw_rect.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_rect.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.i: cmake_force
@@ -573,10 +405,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_rect.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o: lvgl/src/draw/lv_draw_transform.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_transform.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_transform.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_transform.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o: lvgl/src/draw/lv_draw_triangle.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_triangle.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -587,66 +433,52 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_triangle.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o: lvgl/src/draw/lv_draw_vector.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_vector.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o: lvgl/src/draw/lv_img_buf.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_buf.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_vector.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_buf.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_draw_vector.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_buf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o: lvgl/src/draw/lv_image_buf.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_image_buf.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o: lvgl/src/draw/lv_img_cache.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_cache.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_image_buf.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_cache.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_image_buf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_cache.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o: lvgl/src/draw/lv_image_decoder.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_image_decoder.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o: lvgl/src/draw/lv_img_decoder.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_decoder.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_image_decoder.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_decoder.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_image_decoder.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o: lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/lv_img_decoder.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o: lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -657,122 +489,52 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o: lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o: lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o: lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o: lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o: lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o: lvgl/src/draw/nxp/pxp/lv_pxp_osa.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o: lvgl/src/draw/nxp/pxp/lv_pxp_utils.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o: lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -786,7 +548,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -797,94 +559,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -895,10 +587,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o: lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -909,38 +615,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o: lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o: lvgl/src/draw/nxp/vglite/lv_vglite_path.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_path.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_path.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_path.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o: lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -951,10 +629,38 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o: lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o: lvgl/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -965,66 +671,206 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o: lvgl/src/draw/sw/blend/lv_draw_sw_blend.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: lvgl/src/draw/sdl/lv_draw_sdl_arc.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_arc.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_arc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o: lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: lvgl/src/draw/sdl/lv_draw_sdl_bg.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_bg.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_bg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o: lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: lvgl/src/draw/sdl/lv_draw_sdl_composite.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_composite.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_composite.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o: lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: lvgl/src/draw/sdl/lv_draw_sdl_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: lvgl/src/draw/sdl/lv_draw_sdl_label.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_label.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_label.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_label.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o: lvgl/src/draw/sdl/lv_draw_sdl_layer.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_layer.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_layer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: lvgl/src/draw/sdl/lv_draw_sdl_line.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_line.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_line.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_line.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: lvgl/src/draw/sdl/lv_draw_sdl_mask.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_mask.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_mask.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: lvgl/src/draw/sdl/lv_draw_sdl_rect.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_rect.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_rect.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: lvgl/src/draw/sdl/lv_draw_sdl_utils.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_utils.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sdl/lv_draw_sdl_utils.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o: lvgl/src/draw/sw/lv_draw_sw.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -1038,7 +884,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: lvgl/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_arc.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -1049,66 +895,38 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_arc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o: lvgl/src/draw/sw/lv_draw_sw_bg_img.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_bg_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: lvgl/src/draw/sw/lv_draw_sw_blend.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_blend.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_bg_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_blend.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_bg_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_blend.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o: lvgl/src/draw/sw/lv_draw_sw_border.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_border.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: lvgl/src/draw/sw/lv_draw_sw_dither.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_border.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_border.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o: lvgl/src/draw/sw/lv_draw_sw_box_shadow.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o: lvgl/src/draw/sw/lv_draw_sw_fill.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_fill.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_fill.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_fill.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: lvgl/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -1122,7 +940,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o: lvgl/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_img.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -1133,10 +951,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o: lvgl/src/draw/sw/lv_draw_sw_layer.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_layer.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_layer.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_layer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: lvgl/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_letter.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -1150,7 +982,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o: lvgl/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_line.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -1161,38 +993,38 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_line.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o: lvgl/src/draw/sw/lv_draw_sw_mask.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_mask.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: lvgl/src/draw/sw/lv_draw_sw_polygon.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_mask.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_polygon.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_mask.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_polygon.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o: lvgl/src/draw/sw/lv_draw_sw_mask_rect.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: lvgl/src/draw/sw/lv_draw_sw_rect.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_rect.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_rect.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_rect.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o: lvgl/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_transform.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -1203,52 +1035,710 @@ CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_transform.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o: lvgl/src/draw/sw/lv_draw_sw_triangle.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_triangle.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_triangle.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_triangle.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o: lvgl/src/draw/sw/lv_draw_sw_vector.c
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_vector.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o: lvgl/src/extra/layouts/flex/lv_flex.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/layouts/flex/lv_flex.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_vector.c > CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/layouts/flex/lv_flex.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/draw/sw/lv_draw_sw_vector.c -o CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/layouts/flex/lv_flex.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o: lvgl/src/font/lv_binfont_loader.c
-CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_binfont_loader.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o: lvgl/src/extra/layouts/grid/lv_grid.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/layouts/grid/lv_grid.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_binfont_loader.c > CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/layouts/grid/lv_grid.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_binfont_loader.c -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/layouts/grid/lv_grid.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o: lvgl/src/extra/libs/bmp/lv_bmp.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o: lvgl/src/extra/libs/freetype/lv_freetype.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/freetype/lv_freetype.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/freetype/lv_freetype.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/freetype/lv_freetype.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o: lvgl/src/extra/libs/gif/gifdec.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/gif/gifdec.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/gif/gifdec.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/gif/gifdec.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o: lvgl/src/extra/libs/gif/lv_gif.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/gif/lv_gif.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/gif/lv_gif.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/gif/lv_gif.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o: lvgl/src/extra/libs/png/lodepng.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/png/lodepng.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/png/lodepng.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/png/lodepng.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o: lvgl/src/extra/libs/png/lv_png.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/png/lv_png.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/png/lv_png.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/png/lv_png.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: lvgl/src/extra/libs/qrcode/lv_qrcode.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/qrcode/lv_qrcode.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/qrcode/lv_qrcode.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/qrcode/lv_qrcode.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: lvgl/src/extra/libs/qrcode/qrcodegen.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: lvgl/src/extra/libs/rlottie/lv_rlottie.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/rlottie/lv_rlottie.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/rlottie/lv_rlottie.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/rlottie/lv_rlottie.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: lvgl/src/extra/libs/sjpg/lv_sjpg.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/sjpg/lv_sjpg.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/sjpg/lv_sjpg.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/sjpg/lv_sjpg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o: lvgl/src/extra/libs/sjpg/tjpgd.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o: lvgl/src/extra/lv_extra.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/lv_extra.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/lv_extra.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/lv_extra.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o: lvgl/src/extra/others/fragment/lv_fragment.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/fragment/lv_fragment.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/fragment/lv_fragment.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/fragment/lv_fragment.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o: lvgl/src/extra/others/fragment/lv_fragment_manager.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/fragment/lv_fragment_manager.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/fragment/lv_fragment_manager.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/fragment/lv_fragment_manager.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: lvgl/src/extra/others/gridnav/lv_gridnav.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/gridnav/lv_gridnav.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/gridnav/lv_gridnav.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/gridnav/lv_gridnav.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o: lvgl/src/extra/others/ime/lv_ime_pinyin.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/ime/lv_ime_pinyin.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/ime/lv_ime_pinyin.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/ime/lv_ime_pinyin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o: lvgl/src/extra/others/imgfont/lv_imgfont.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/imgfont/lv_imgfont.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/imgfont/lv_imgfont.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/imgfont/lv_imgfont.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o: lvgl/src/extra/others/monkey/lv_monkey.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/monkey/lv_monkey.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/monkey/lv_monkey.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/monkey/lv_monkey.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o: lvgl/src/extra/others/msg/lv_msg.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/msg/lv_msg.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/msg/lv_msg.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/msg/lv_msg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: lvgl/src/extra/others/snapshot/lv_snapshot.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/snapshot/lv_snapshot.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/snapshot/lv_snapshot.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/others/snapshot/lv_snapshot.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: lvgl/src/extra/themes/basic/lv_theme_basic.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/basic/lv_theme_basic.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/basic/lv_theme_basic.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/basic/lv_theme_basic.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o: lvgl/src/extra/themes/default/lv_theme_default.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/default/lv_theme_default.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/default/lv_theme_default.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/default/lv_theme_default.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: lvgl/src/extra/themes/mono/lv_theme_mono.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/mono/lv_theme_mono.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/mono/lv_theme_mono.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/themes/mono/lv_theme_mono.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: lvgl/src/extra/widgets/animimg/lv_animimg.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/animimg/lv_animimg.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/animimg/lv_animimg.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/animimg/lv_animimg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: lvgl/src/extra/widgets/calendar/lv_calendar.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o: lvgl/src/extra/widgets/chart/lv_chart.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/chart/lv_chart.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/chart/lv_chart.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/chart/lv_chart.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: lvgl/src/extra/widgets/keyboard/lv_keyboard.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/keyboard/lv_keyboard.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/keyboard/lv_keyboard.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o: lvgl/src/extra/widgets/led/lv_led.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/led/lv_led.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/led/lv_led.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/led/lv_led.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o: lvgl/src/extra/widgets/list/lv_list.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/list/lv_list.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/list/lv_list.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/list/lv_list.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o: lvgl/src/extra/widgets/menu/lv_menu.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/menu/lv_menu.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/menu/lv_menu.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/menu/lv_menu.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o: lvgl/src/extra/widgets/meter/lv_meter.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/meter/lv_meter.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/meter/lv_meter.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/meter/lv_meter.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: lvgl/src/extra/widgets/msgbox/lv_msgbox.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/msgbox/lv_msgbox.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/msgbox/lv_msgbox.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o: lvgl/src/extra/widgets/span/lv_span.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/span/lv_span.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/span/lv_span.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/span/lv_span.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: lvgl/src/extra/widgets/spinbox/lv_spinbox.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/spinbox/lv_spinbox.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/spinbox/lv_spinbox.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: lvgl/src/extra/widgets/spinner/lv_spinner.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/spinner/lv_spinner.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/spinner/lv_spinner.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/spinner/lv_spinner.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: lvgl/src/extra/widgets/tabview/lv_tabview.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/tabview/lv_tabview.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/tabview/lv_tabview.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/tabview/lv_tabview.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: lvgl/src/extra/widgets/tileview/lv_tileview.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/tileview/lv_tileview.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/tileview/lv_tileview.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/tileview/lv_tileview.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o: lvgl/src/extra/widgets/win/lv_win.c
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/win/lv_win.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/win/lv_win.c > CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/extra/widgets/win/lv_win.c -o CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o: lvgl/src/font/lv_font.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.i: cmake_force
@@ -1262,7 +1752,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -1276,7 +1766,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmak
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o: lvgl/src/font/lv_font_fmt_txt.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_fmt_txt.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -1287,10 +1777,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_fmt_txt.c -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o: lvgl/src/font/lv_font_loader.c
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_loader.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_loader.c > CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_loader.c -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o: lvgl/src/font/lv_font_montserrat_10.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_10.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -1304,7 +1808,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o: lvgl/src/font/lv_font_montserrat_12.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_12.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -1315,10 +1819,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_12.c -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: lvgl/src/font/lv_font_montserrat_12_subpx.c
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_12_subpx.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_12_subpx.c > CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_12_subpx.c -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o: lvgl/src/font/lv_font_montserrat_14.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_14.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -1332,7 +1850,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o: lvgl/src/font/lv_font_montserrat_16.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_16.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -1346,7 +1864,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o: lvgl/src/font/lv_font_montserrat_18.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_18.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -1360,7 +1878,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o: lvgl/src/font/lv_font_montserrat_20.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_20.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -1374,7 +1892,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_20.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o: lvgl/src/font/lv_font_montserrat_22.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_22.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -1388,7 +1906,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_22.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o: lvgl/src/font/lv_font_montserrat_24.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_24.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -1402,7 +1920,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_24.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o: lvgl/src/font/lv_font_montserrat_26.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_26.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -1416,7 +1934,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_26.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o: lvgl/src/font/lv_font_montserrat_28.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_28.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -1430,7 +1948,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: lvgl/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_28_compressed.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -1444,7 +1962,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.s: cmak
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o: lvgl/src/font/lv_font_montserrat_30.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_30.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -1458,7 +1976,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_30.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o: lvgl/src/font/lv_font_montserrat_32.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_32.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -1472,7 +1990,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_32.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o: lvgl/src/font/lv_font_montserrat_34.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_34.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -1486,7 +2004,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_34.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o: lvgl/src/font/lv_font_montserrat_36.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_36.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -1500,7 +2018,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_36.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o: lvgl/src/font/lv_font_montserrat_38.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_38.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -1514,7 +2032,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_38.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o: lvgl/src/font/lv_font_montserrat_40.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_40.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -1528,7 +2046,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_40.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o: lvgl/src/font/lv_font_montserrat_42.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_42.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -1542,7 +2060,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_42.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o: lvgl/src/font/lv_font_montserrat_44.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_44.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -1556,7 +2074,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_44.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o: lvgl/src/font/lv_font_montserrat_46.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_46.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -1570,7 +2088,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_46.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o: lvgl/src/font/lv_font_montserrat_48.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_48.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -1584,7 +2102,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_48.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o: lvgl/src/font/lv_font_montserrat_8.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_montserrat_8.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -1598,7 +2116,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o: lvgl/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_simsun_16_cjk.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -1612,7 +2130,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o: lvgl/src/font/lv_font_unscii_16.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_unscii_16.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -1626,7 +2144,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o: lvgl/src/font/lv_font_unscii_8.c
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_unscii_8.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -1637,458 +2155,52 @@ CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/font/lv_font_unscii_8.c -o CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o: lvgl/src/indev/lv_indev.c
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/indev/lv_indev.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/indev/lv_indev.c > CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/indev/lv_indev.c -o CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o: lvgl/src/indev/lv_indev_scroll.c
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/indev/lv_indev_scroll.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/indev/lv_indev_scroll.c > CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/indev/lv_indev_scroll.c -o CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o: lvgl/src/layouts/flex/lv_flex.c
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/layouts/flex/lv_flex.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/layouts/flex/lv_flex.c > CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/layouts/flex/lv_flex.c -o CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o: lvgl/src/layouts/grid/lv_grid.c
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/layouts/grid/lv_grid.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/layouts/grid/lv_grid.c > CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/layouts/grid/lv_grid.c -o CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o: lvgl/src/layouts/lv_layout.c
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/layouts/lv_layout.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/layouts/lv_layout.c > CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/layouts/lv_layout.c -o CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o: lvgl/src/libs/barcode/code128.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/barcode/code128.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/barcode/code128.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/barcode/code128.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o: lvgl/src/libs/barcode/lv_barcode.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/barcode/lv_barcode.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/barcode/lv_barcode.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/barcode/lv_barcode.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o: lvgl/src/libs/bin_decoder/lv_bin_decoder.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/bin_decoder/lv_bin_decoder.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/bin_decoder/lv_bin_decoder.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/bin_decoder/lv_bin_decoder.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o: lvgl/src/libs/bmp/lv_bmp.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/bmp/lv_bmp.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/bmp/lv_bmp.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/bmp/lv_bmp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o: lvgl/src/libs/ffmpeg/lv_ffmpeg.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/ffmpeg/lv_ffmpeg.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/ffmpeg/lv_ffmpeg.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/ffmpeg/lv_ffmpeg.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o: lvgl/src/libs/freetype/lv_freetype.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/freetype/lv_freetype.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/freetype/lv_freetype.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/freetype/lv_freetype.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o: lvgl/src/libs/freetype/lv_ftsystem.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/freetype/lv_ftsystem.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/freetype/lv_ftsystem.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/freetype/lv_ftsystem.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o: lvgl/src/libs/fsdrv/lv_fs_cbfs.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_cbfs.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_cbfs.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_cbfs.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o: lvgl/src/libs/fsdrv/lv_fs_fatfs.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_fatfs.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_fatfs.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_fatfs.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o: lvgl/src/libs/fsdrv/lv_fs_memfs.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_memfs.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_memfs.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_memfs.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o: lvgl/src/libs/fsdrv/lv_fs_posix.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_posix.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_posix.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_posix.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o: lvgl/src/libs/fsdrv/lv_fs_stdio.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_stdio.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_stdio.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_stdio.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o: lvgl/src/libs/fsdrv/lv_fs_win32.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_win32.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_win32.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/fsdrv/lv_fs_win32.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o: lvgl/src/libs/gif/gifdec.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/gif/gifdec.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/gif/gifdec.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/gif/gifdec.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o: lvgl/src/libs/gif/lv_gif.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/gif/lv_gif.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/gif/lv_gif.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/gif/lv_gif.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o: lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o: lvgl/src/libs/libpng/lv_libpng.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/libpng/lv_libpng.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/libpng/lv_libpng.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/libpng/lv_libpng.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o: lvgl/src/libs/lodepng/lodepng.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/lodepng/lodepng.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/lodepng/lodepng.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/lodepng/lodepng.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o: lvgl/src/libs/lodepng/lv_lodepng.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/lodepng/lv_lodepng.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/lodepng/lv_lodepng.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/lodepng/lv_lodepng.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o: lvgl/src/libs/qrcode/lv_qrcode.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/qrcode/lv_qrcode.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/qrcode/lv_qrcode.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/qrcode/lv_qrcode.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o: lvgl/src/libs/qrcode/qrcodegen.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/qrcode/qrcodegen.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/qrcode/qrcodegen.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/qrcode/qrcodegen.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o: lvgl/src/libs/rle/lv_rle_decoder.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/rle/lv_rle_decoder.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/rle/lv_rle_decoder.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/rle/lv_rle_decoder.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o: lvgl/src/libs/rlottie/lv_rlottie.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/rlottie/lv_rlottie.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/rlottie/lv_rlottie.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/rlottie/lv_rlottie.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o: lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o: lvgl/src/libs/tjpgd/lv_tjpgd.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/tjpgd/lv_tjpgd.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/tjpgd/lv_tjpgd.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/tjpgd/lv_tjpgd.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o: lvgl/src/libs/tjpgd/tjpgd.c
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/libs/tjpgd/tjpgd.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/libs/tjpgd/tjpgd.c > CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/libs/tjpgd/tjpgd.c -o CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o: lvgl/src/lv_init.c
-CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/lv_init.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/lv_init.c > CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/lv_init.c -o CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o: lvgl/src/hal/lv_hal_disp.c
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_disp.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_disp.c > CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_disp.c -o CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o: lvgl/src/hal/lv_hal_indev.c
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_indev.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_indev.c > CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_indev.c -o CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o: lvgl/src/hal/lv_hal_tick.c
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_tick.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_tick.c > CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/hal/lv_hal_tick.c -o CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o: lvgl/src/misc/lv_anim.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_anim.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.i: cmake_force
@@ -2102,7 +2214,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o: lvgl/src/misc/lv_anim_timeline.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_anim_timeline.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -2116,7 +2228,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o: lvgl/src/misc/lv_area.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_area.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.i: cmake_force
@@ -2127,24 +2239,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_area.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o: lvgl/src/misc/lv_array.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_array.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_array.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_array.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o: lvgl/src/misc/lv_async.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_async.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.i: cmake_force
@@ -2158,7 +2256,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o: lvgl/src/misc/lv_bidi.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_bidi.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.i: cmake_force
@@ -2169,38 +2267,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_bidi.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o: lvgl/src/misc/lv_cache.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_cache.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_cache.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_cache.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o: lvgl/src/misc/lv_cache_builtin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_cache_builtin.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_cache_builtin.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_cache_builtin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o: lvgl/src/misc/lv_color.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_color.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.i: cmake_force
@@ -2211,38 +2281,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_color.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o: lvgl/src/misc/lv_color_op.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_color_op.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_color_op.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_color_op.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o: lvgl/src/misc/lv_event.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_event.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_event.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_event.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o: lvgl/src/misc/lv_fs.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_fs.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.i: cmake_force
@@ -2253,10 +2295,24 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_fs.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o: lvgl/src/misc/lv_gc.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_gc.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_gc.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_gc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o: lvgl/src/misc/lv_ll.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_ll.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.i: cmake_force
@@ -2270,7 +2326,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o: lvgl/src/misc/lv_log.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_log.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.i: cmake_force
@@ -2284,7 +2340,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o: lvgl/src/misc/lv_lru.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_lru.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.i: cmake_force
@@ -2298,7 +2354,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o: lvgl/src/misc/lv_math.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_math.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.i: cmake_force
@@ -2309,38 +2365,38 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_math.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o: lvgl/src/misc/lv_palette.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_palette.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o: lvgl/src/misc/lv_mem.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_mem.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_palette.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_mem.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_palette.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_mem.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o: lvgl/src/misc/lv_profiler_builtin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_profiler_builtin.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o: lvgl/src/misc/lv_printf.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_printf.c
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_profiler_builtin.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.i
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_printf.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.i
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_profiler_builtin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_printf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.s
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o: lvgl/src/misc/lv_style.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_style.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.i: cmake_force
@@ -2354,7 +2410,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o: lvgl/src/misc/lv_style_gen.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_style_gen.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.i: cmake_force
@@ -2368,7 +2424,7 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.s: cmake_force
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o: lvgl/src/misc/lv_templ.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_templ.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.i: cmake_force
@@ -2379,38 +2435,10 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_templ.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o: lvgl/src/misc/lv_text.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_text.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_text.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_text.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o: lvgl/src/misc/lv_text_ap.c
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_text_ap.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_text_ap.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_text_ap.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.s
-
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o: lvgl/src/misc/lv_timer.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_timer.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.i: cmake_force
@@ -2421,10 +2449,52 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_timer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.s
 
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o: lvgl/src/misc/lv_tlsf.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_tlsf.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_tlsf.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_tlsf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o: lvgl/src/misc/lv_txt.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_txt.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_txt.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_txt.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o: lvgl/src/misc/lv_txt_ap.c
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_txt_ap.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_txt_ap.c > CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_txt_ap.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.s
+
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o: CMakeFiles/lvgl_src.dir/flags.make
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o: lvgl/src/misc/lv_utils.c
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_utils.c
 
 CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.i: cmake_force
@@ -2435,1035 +2505,358 @@ CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.s"
 	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/misc/lv_utils.c -o CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.s
 
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o: lvgl/src/osal/lv_cmsis_rtos2.c
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_cmsis_rtos2.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_cmsis_rtos2.c > CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_cmsis_rtos2.c -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o: lvgl/src/osal/lv_freertos.c
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_freertos.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_freertos.c > CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_freertos.c -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o: lvgl/src/osal/lv_os_none.c
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_os_none.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_os_none.c > CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_os_none.c -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o: lvgl/src/osal/lv_pthread.c
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_pthread.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_pthread.c > CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_pthread.c -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o: lvgl/src/osal/lv_rtthread.c
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_rtthread.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_rtthread.c > CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_rtthread.c -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o: lvgl/src/osal/lv_windows.c
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_windows.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_windows.c > CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/osal/lv_windows.c -o CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o: lvgl/src/others/file_explorer/lv_file_explorer.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/file_explorer/lv_file_explorer.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/file_explorer/lv_file_explorer.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/file_explorer/lv_file_explorer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o: lvgl/src/others/fragment/lv_fragment.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/fragment/lv_fragment.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/fragment/lv_fragment.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/fragment/lv_fragment.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o: lvgl/src/others/fragment/lv_fragment_manager.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/fragment/lv_fragment_manager.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/fragment/lv_fragment_manager.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/fragment/lv_fragment_manager.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o: lvgl/src/others/gridnav/lv_gridnav.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/gridnav/lv_gridnav.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/gridnav/lv_gridnav.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/gridnav/lv_gridnav.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o: lvgl/src/others/ime/lv_ime_pinyin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/ime/lv_ime_pinyin.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/ime/lv_ime_pinyin.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/ime/lv_ime_pinyin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o: lvgl/src/others/imgfont/lv_imgfont.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/imgfont/lv_imgfont.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/imgfont/lv_imgfont.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/imgfont/lv_imgfont.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o: lvgl/src/others/monkey/lv_monkey.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/monkey/lv_monkey.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/monkey/lv_monkey.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/monkey/lv_monkey.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o: lvgl/src/others/observer/lv_observer.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/observer/lv_observer.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/observer/lv_observer.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/observer/lv_observer.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o: lvgl/src/others/snapshot/lv_snapshot.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/snapshot/lv_snapshot.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/snapshot/lv_snapshot.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/snapshot/lv_snapshot.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o: lvgl/src/others/sysmon/lv_sysmon.c
-CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/others/sysmon/lv_sysmon.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/others/sysmon/lv_sysmon.c > CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/others/sysmon/lv_sysmon.c -o CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o: lvgl/src/stdlib/builtin/lv_mem_core_builtin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o: lvgl/src/stdlib/builtin/lv_sprintf_builtin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o: lvgl/src/stdlib/builtin/lv_string_builtin.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_string_builtin.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_string_builtin.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_string_builtin.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o: lvgl/src/stdlib/builtin/lv_tlsf.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_tlsf.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_tlsf.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/builtin/lv_tlsf.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o: lvgl/src/stdlib/clib/lv_mem_core_clib.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_mem_core_clib.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_mem_core_clib.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_mem_core_clib.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o: lvgl/src/stdlib/clib/lv_sprintf_clib.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_sprintf_clib.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_sprintf_clib.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_sprintf_clib.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o: lvgl/src/stdlib/clib/lv_string_clib.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_string_clib.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_string_clib.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/clib/lv_string_clib.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o: lvgl/src/stdlib/lv_mem.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/lv_mem.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/lv_mem.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/lv_mem.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o: lvgl/src/stdlib/micropython/lv_mem_core_micropython.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o: lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o: lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o: lvgl/src/stdlib/rtthread/lv_string_rtthread.c
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_string_rtthread.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_string_rtthread.c > CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/stdlib/rtthread/lv_string_rtthread.c -o CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o: lvgl/src/themes/basic/lv_theme_basic.c
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/themes/basic/lv_theme_basic.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/themes/basic/lv_theme_basic.c > CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/themes/basic/lv_theme_basic.c -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o: lvgl/src/themes/default/lv_theme_default.c
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/themes/default/lv_theme_default.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/themes/default/lv_theme_default.c > CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/themes/default/lv_theme_default.c -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o: lvgl/src/themes/lv_theme.c
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/themes/lv_theme.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/themes/lv_theme.c > CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/themes/lv_theme.c -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o: lvgl/src/themes/mono/lv_theme_mono.c
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/themes/mono/lv_theme_mono.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/themes/mono/lv_theme_mono.c > CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/themes/mono/lv_theme_mono.c -o CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o: lvgl/src/tick/lv_tick.c
-CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/tick/lv_tick.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/tick/lv_tick.c > CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/tick/lv_tick.c -o CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o: lvgl/src/widgets/animimage/lv_animimage.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/animimage/lv_animimage.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/animimage/lv_animimage.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/animimage/lv_animimage.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o: lvgl/src/widgets/arc/lv_arc.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/arc/lv_arc.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/arc/lv_arc.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/arc/lv_arc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o: lvgl/src/widgets/bar/lv_bar.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/bar/lv_bar.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/bar/lv_bar.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/bar/lv_bar.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o: lvgl/src/widgets/button/lv_button.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/button/lv_button.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/button/lv_button.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/button/lv_button.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o: lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o: lvgl/src/widgets/calendar/lv_calendar.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o: lvgl/src/widgets/calendar/lv_calendar_header_arrow.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o: lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o: lvgl/src/widgets/canvas/lv_canvas.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/canvas/lv_canvas.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/canvas/lv_canvas.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/canvas/lv_canvas.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o: lvgl/src/widgets/chart/lv_chart.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/chart/lv_chart.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/chart/lv_chart.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/chart/lv_chart.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o: lvgl/src/widgets/checkbox/lv_checkbox.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/checkbox/lv_checkbox.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/checkbox/lv_checkbox.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/checkbox/lv_checkbox.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o: lvgl/src/widgets/dropdown/lv_dropdown.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/dropdown/lv_dropdown.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/dropdown/lv_dropdown.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/dropdown/lv_dropdown.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o: lvgl/src/widgets/image/lv_image.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/image/lv_image.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/image/lv_image.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/image/lv_image.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o: lvgl/src/widgets/imgbtn/lv_imgbtn.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/imgbtn/lv_imgbtn.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/imgbtn/lv_imgbtn.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/imgbtn/lv_imgbtn.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o: lvgl/src/widgets/keyboard/lv_keyboard.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/keyboard/lv_keyboard.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/keyboard/lv_keyboard.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/keyboard/lv_keyboard.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o: lvgl/src/widgets/label/lv_label.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/label/lv_label.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/label/lv_label.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/label/lv_label.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o: lvgl/src/widgets/led/lv_led.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/led/lv_led.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/led/lv_led.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/led/lv_led.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o: lvgl/src/widgets/line/lv_line.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/line/lv_line.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/line/lv_line.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/line/lv_line.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o: lvgl/src/widgets/list/lv_list.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/list/lv_list.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/list/lv_list.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/list/lv_list.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o: lvgl/src/widgets/menu/lv_menu.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/menu/lv_menu.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/menu/lv_menu.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/menu/lv_menu.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o: lvgl/src/widgets/msgbox/lv_msgbox.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/msgbox/lv_msgbox.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/msgbox/lv_msgbox.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/msgbox/lv_msgbox.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o: lvgl/src/widgets/objx_templ/lv_objx_templ.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/objx_templ/lv_objx_templ.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/objx_templ/lv_objx_templ.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/objx_templ/lv_objx_templ.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o: lvgl/src/widgets/roller/lv_roller.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/roller/lv_roller.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/roller/lv_roller.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/roller/lv_roller.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o: lvgl/src/widgets/scale/lv_scale.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/scale/lv_scale.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/scale/lv_scale.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/scale/lv_scale.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o: lvgl/src/widgets/slider/lv_slider.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/slider/lv_slider.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/slider/lv_slider.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/slider/lv_slider.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o: lvgl/src/widgets/span/lv_span.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/span/lv_span.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/span/lv_span.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/span/lv_span.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o: lvgl/src/widgets/spinbox/lv_spinbox.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/spinbox/lv_spinbox.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/spinbox/lv_spinbox.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/spinbox/lv_spinbox.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o: lvgl/src/widgets/spinner/lv_spinner.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/spinner/lv_spinner.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/spinner/lv_spinner.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/spinner/lv_spinner.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o: lvgl/src/widgets/switch/lv_switch.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/switch/lv_switch.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/switch/lv_switch.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/switch/lv_switch.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o: lvgl/src/widgets/table/lv_table.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/table/lv_table.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/table/lv_table.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/table/lv_table.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o: lvgl/src/widgets/tabview/lv_tabview.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/tabview/lv_tabview.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/tabview/lv_tabview.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/tabview/lv_tabview.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o: lvgl/src/widgets/textarea/lv_textarea.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/textarea/lv_textarea.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/textarea/lv_textarea.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/textarea/lv_textarea.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o: lvgl/src/widgets/tileview/lv_tileview.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/tileview/lv_tileview.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/tileview/lv_tileview.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/tileview/lv_tileview.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.s
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o: CMakeFiles/lvgl_src.dir/flags.make
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o: lvgl/src/widgets/win/lv_win.c
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/win/lv_win.c
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.i"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/win/lv_win.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.i
-
-CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.s"
-	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/win/lv_win.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.s
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o: lvgl/src/widgets/lv_arc.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_arc.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_arc.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_arc.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o: lvgl/src/widgets/lv_bar.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_bar.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_bar.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_bar.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o: lvgl/src/widgets/lv_btn.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_btn.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_btn.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_btn.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o: lvgl/src/widgets/lv_btnmatrix.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_btnmatrix.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_btnmatrix.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_btnmatrix.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o: lvgl/src/widgets/lv_canvas.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_canvas.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_canvas.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_canvas.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o: lvgl/src/widgets/lv_checkbox.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_checkbox.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_checkbox.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_checkbox.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o: lvgl/src/widgets/lv_dropdown.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_dropdown.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_dropdown.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_dropdown.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o: lvgl/src/widgets/lv_img.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_img.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_img.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_img.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o: lvgl/src/widgets/lv_label.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_label.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_label.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_label.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o: lvgl/src/widgets/lv_line.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_line.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_line.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_line.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o: lvgl/src/widgets/lv_objx_templ.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_objx_templ.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_objx_templ.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_objx_templ.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o: lvgl/src/widgets/lv_roller.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_roller.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_roller.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_roller.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o: lvgl/src/widgets/lv_slider.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_slider.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_slider.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_slider.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o: lvgl/src/widgets/lv_switch.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_switch.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_switch.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_switch.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o: lvgl/src/widgets/lv_table.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_table.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_table.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_table.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.s
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o: CMakeFiles/lvgl_src.dir/flags.make
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o: lvgl/src/widgets/lv_textarea.c
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o: CMakeFiles/lvgl_src.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o -MF CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o.d -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o -c /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_textarea.c
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.i"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_textarea.c > CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.i
+
+CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.s"
+	luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/bin/arm-rockchip830-linux-uclibcgnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/duya25446/luckfox_lvgl/lvgl/src/widgets/lv_textarea.c -o CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.s
 
 # Object files for target lvgl_src
 lvgl_src_OBJECTS = \
+"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o" \
@@ -3487,223 +2880,177 @@ lvgl_src_OBJECTS = \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o" \
 "CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o" \
-"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o"
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o" \
+"CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o"
 
 # External object files for target lvgl_src
 lvgl_src_EXTERNAL_OBJECTS =
 
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_disp.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_event.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_group.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_indev_scroll.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_class.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_draw.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_event.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_id_builtin.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_pos.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_property.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_scroll.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_style_gen.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_obj_tree.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_refr.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/drm/lv_linux_drm.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/display/fb/lv_linux_fbdev.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/evdev/lv_evdev.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_entry.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_fbdev.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_lcd.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_libuv.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/nuttx/lv_nuttx_touchscreen.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_keyboard.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mouse.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_mousewheel.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/sdl/lv_sdl_window.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_display.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/dev/x11/lv_x11_input.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/display/lv_display.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/core/lv_theme.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_arc.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_buf.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_image.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_img.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_label.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_layer.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_line.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_mask.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_rect.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_transform.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_triangle.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_draw_vector.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_buf.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_image_decoder.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_buf.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_cache.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/lv_img_decoder.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_bg_img.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bg_img.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_path.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_bg_img.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_border.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_fill.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_triangle.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/sw/lv_draw_sw_vector.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_binfont_loader.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/flex/lv_flex.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/layouts/grid/lv_grid.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/gifdec.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/gif/lv_gif.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lodepng.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/png/lv_png.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/lv_extra.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/monkey/lv_monkey.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/msg/lv_msg.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/default/lv_theme_default.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/chart/lv_chart.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/led/lv_led.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/list/lv_list.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/menu/lv_menu.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/meter/lv_meter.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/span/lv_span.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/extra/widgets/win/lv_win.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_fmt_txt.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_loader.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_10.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_14.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_16.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_18.c.o
@@ -3727,133 +3074,50 @@ build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_montserrat_8.
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_16.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/font/lv_font_unscii_8.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/indev/lv_indev_scroll.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/layouts/flex/lv_flex.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/layouts/grid/lv_grid.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/layouts/lv_layout.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/code128.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/barcode/lv_barcode.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/bin_decoder/lv_bin_decoder.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/bmp/lv_bmp.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/ffmpeg/lv_ffmpeg.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_freetype.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/freetype/lv_ftsystem.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_cbfs.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_fatfs.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_memfs.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_posix.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_stdio.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/fsdrv/lv_fs_win32.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/gifdec.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/gif/lv_gif.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/libpng/lv_libpng.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lodepng.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/lodepng/lv_lodepng.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/lv_qrcode.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/qrcode/qrcodegen.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/rle/lv_rle_decoder.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/rlottie/lv_rlottie.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/lv_tjpgd.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/libs/tjpgd/tjpgd.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/lv_init.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_disp.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_indev.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/hal/lv_hal_tick.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_anim_timeline.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_area.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_array.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_async.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_bidi.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_cache_builtin.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_color_op.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_event.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_fs.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_gc.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_ll.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_log.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_lru.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_math.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_palette.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_profiler_builtin.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_mem.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_printf.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_style_gen.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_templ.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_text_ap.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_timer.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_tlsf.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_txt_ap.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/misc/lv_utils.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_cmsis_rtos2.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_freertos.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_os_none.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_pthread.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_rtthread.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/osal/lv_windows.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/file_explorer/lv_file_explorer.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/fragment/lv_fragment_manager.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/gridnav/lv_gridnav.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/ime/lv_ime_pinyin.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/imgfont/lv_imgfont.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/monkey/lv_monkey.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/observer/lv_observer.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/snapshot/lv_snapshot.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/others/sysmon/lv_sysmon.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_string_builtin.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/builtin/lv_tlsf.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_mem_core_clib.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_sprintf_clib.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/clib/lv_string_clib.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/lv_mem.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/stdlib/rtthread/lv_string_rtthread.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/themes/basic/lv_theme_basic.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/themes/default/lv_theme_default.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/themes/lv_theme.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/themes/mono/lv_theme_mono.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/tick/lv_tick.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/animimage/lv_animimage.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/arc/lv_arc.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/bar/lv_bar.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/button/lv_button.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/canvas/lv_canvas.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/chart/lv_chart.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/checkbox/lv_checkbox.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/dropdown/lv_dropdown.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/image/lv_image.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/imgbtn/lv_imgbtn.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/keyboard/lv_keyboard.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/label/lv_label.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/led/lv_led.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/line/lv_line.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/list/lv_list.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/menu/lv_menu.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/msgbox/lv_msgbox.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/objx_templ/lv_objx_templ.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/roller/lv_roller.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/scale/lv_scale.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/slider/lv_slider.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/span/lv_span.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinbox/lv_spinbox.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/spinner/lv_spinner.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/switch/lv_switch.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/table/lv_table.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tabview/lv_tabview.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/textarea/lv_textarea.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/tileview/lv_tileview.c.o
-build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/win/lv_win.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_arc.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_bar.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btn.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_btnmatrix.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_canvas.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_checkbox.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_dropdown.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_img.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_label.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_line.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_objx_templ.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_roller.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_slider.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_switch.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_table.c.o
+build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/lvgl/src/widgets/lv_textarea.c.o
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/build.make
 build/liblvgl_src.a: CMakeFiles/lvgl_src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Linking C static library build/liblvgl_src.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Linking C static library build/liblvgl_src.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lvgl_src.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvgl_src.dir/link.txt --verbose=$(VERBOSE)
 

@@ -86,35 +86,26 @@ CMakeFiles/main.dir/main.c.o: main.c \
   luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctls.h \
   luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctl-types.h \
   lvgl/lvgl.h \
-  lvgl/src/lv_init.h \
-  luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdbool.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_types.h \
-  lvgl/src/lv_conf_kconfig.h \
-  lvgl/lv_conf.h \
-  lvgl/src/stdlib/lv_mem.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_types.h \
-  lvgl/src/stdlib/lv_string.h \
-  lvgl/src/stdlib/lv_sprintf.h \
-  luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/inttypes.h \
   lvgl/src/misc/lv_log.h \
   lvgl/src/lv_conf_internal.h \
+  lvgl/src/lv_conf_kconfig.h \
+  lvgl/lv_conf.h \
   lvgl/src/misc/lv_types.h \
   lvgl/src/misc/lv_timer.h \
-  lvgl/src/tick/lv_tick.h \
+  lvgl/src/hal/lv_hal_tick.h \
   lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_ll.h \
+  luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdbool.h \
   lvgl/src/misc/lv_math.h \
-  lvgl/src/misc/lv_array.h \
+  lvgl/src/misc/lv_mem.h \
   lvgl/src/misc/lv_async.h \
   lvgl/src/misc/lv_anim_timeline.h \
   lvgl/src/misc/lv_anim.h \
-  lvgl/src/misc/lv_math.h \
-  lvgl/src/misc/lv_timer.h \
-  lvgl/src/misc/lv_profiler_builtin.h \
-  lvgl/src/tick/lv_tick.h \
-  lvgl/src/core/lv_obj.h \
+  lvgl/src/misc/lv_printf.h \
+  luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/inttypes.h \
+  lvgl/src/hal/lv_hal.h \
+  lvgl/src/hal/lv_hal_disp.h \
+  lvgl/src/hal/lv_hal.h \
+  lvgl/src/draw/lv_draw.h \
   lvgl/src/lv_conf_internal.h \
   lvgl/src/misc/lv_style.h \
   lvgl/src/font/lv_font.h \
@@ -126,441 +117,319 @@ CMakeFiles/main.dir/main.c.o: main.c \
   lvgl/src/lv_conf_internal.h \
   lvgl/src/misc/lv_assert.h \
   lvgl/src/misc/lv_log.h \
-  lvgl/src/stdlib/lv_mem.h \
+  lvgl/src/misc/lv_mem.h \
   lvgl/src/misc/lv_math.h \
   lvgl/src/misc/lv_types.h \
-  lvgl/src/misc/lv_palette.h \
-  lvgl/src/misc/lv_color_op.h \
   lvgl/src/misc/lv_area.h \
   lvgl/src/misc/lv_anim.h \
-  lvgl/src/misc/lv_text.h \
-  lvgl/src/stdlib/lv_sprintf.h \
+  lvgl/src/misc/lv_txt.h \
+  lvgl/src/misc/lv_printf.h \
   lvgl/src/misc/lv_bidi.h \
-  lvgl/src/layouts/lv_layout.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/layouts/flex/lv_flex.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_area.h \
-  lvgl/src/layouts/grid/lv_grid.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_area.h \
   lvgl/src/misc/lv_style_gen.h \
-  lvgl/src/misc/lv_types.h \
-  lvgl/src/misc/lv_area.h \
-  lvgl/src/misc/lv_color.h \
-  lvgl/src/misc/lv_assert.h \
-  lvgl/src/core/lv_obj_property.h \
-  lvgl/src/core/lv_obj_tree.h \
-  lvgl/src/misc/lv_anim.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/misc/lv_timer.h \
-  lvgl/src/misc/lv_event.h \
-  lvgl/src/misc/lv_types.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_color.h \
-  lvgl/src/draw/lv_draw.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_style.h \
-  lvgl/src/misc/lv_text.h \
-  lvgl/src/misc/lv_profiler.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_cache.h \
-  lvgl/src/osal/lv_os.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/misc/lv_types.h \
-  lvgl/src/osal/lv_os_none.h \
-  lvgl/src/draw/lv_image_decoder.h \
-  lvgl/src/draw/lv_image_buf.h \
+  lvgl/src/misc/lv_txt.h \
+  lvgl/src/draw/lv_img_decoder.h \
+  lvgl/src/draw/lv_img_buf.h \
   lvgl/src/misc/lv_color.h \
   lvgl/src/misc/lv_area.h \
   lvgl/src/misc/lv_fs.h \
   lvgl/src/misc/lv_types.h \
-  lvgl/src/osal/lv_os.h \
-  lvgl/src/draw/lv_draw_buf.h \
+  lvgl/src/draw/lv_img_cache.h \
   lvgl/src/draw/lv_draw_rect.h \
-  lvgl/src/draw/lv_draw.h \
   lvgl/src/draw/sw/lv_draw_sw_gradient.h \
   lvgl/src/misc/lv_color.h \
   lvgl/src/misc/lv_style.h \
+  lvgl/src/draw/sw/lv_draw_sw_dither.h \
+  lvgl/src/core/lv_obj_pos.h \
+  lvgl/src/misc/lv_area.h \
   lvgl/src/draw/lv_draw_label.h \
   lvgl/src/misc/lv_bidi.h \
-  lvgl/src/draw/lv_draw_image.h \
-  lvgl/src/draw/lv_draw_arc.h \
+  lvgl/src/draw/lv_draw_img.h \
   lvgl/src/draw/lv_draw_line.h \
   lvgl/src/draw/lv_draw_triangle.h \
+  lvgl/src/draw/lv_draw_arc.h \
   lvgl/src/draw/lv_draw_mask.h \
+  lvgl/src/misc/lv_math.h \
+  lvgl/src/draw/lv_draw_transform.h \
+  lvgl/src/draw/lv_draw_layer.h \
+  lvgl/src/misc/lv_color.h \
+  lvgl/src/misc/lv_area.h \
+  lvgl/src/misc/lv_ll.h \
+  lvgl/src/misc/lv_timer.h \
+  lvgl/src/hal/lv_hal_indev.h \
+  lvgl/src/lv_conf_internal.h \
+  lvgl/src/hal/lv_hal_tick.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/lv_conf_internal.h \
+  lvgl/src/misc/lv_style.h \
+  lvgl/src/misc/lv_types.h \
+  lvgl/src/misc/lv_area.h \
+  lvgl/src/misc/lv_color.h \
+  lvgl/src/misc/lv_assert.h \
+  lvgl/src/hal/lv_hal.h \
+  lvgl/src/core/lv_obj_tree.h \
   lvgl/src/core/lv_obj_pos.h \
   lvgl/src/core/lv_obj_scroll.h \
+  lvgl/src/misc/lv_anim.h \
   lvgl/src/core/lv_obj_style.h \
   lvgl/src/misc/lv_bidi.h \
   lvgl/src/core/lv_obj_style_gen.h \
-  lvgl/src/core/lv_obj_style.h \
   lvgl/src/core/lv_obj_draw.h \
   lvgl/src/draw/lv_draw.h \
   lvgl/src/core/lv_obj_class.h \
-  lvgl/src/core/lv_obj_event.h \
-  lvgl/src/misc/lv_event.h \
-  lvgl/src/indev/lv_indev.h \
+  lvgl/src/core/lv_event.h \
   lvgl/src/core/lv_group.h \
-  lvgl/src/lv_conf_internal.h \
   lvgl/src/misc/lv_ll.h \
-  lvgl/src/misc/lv_types.h \
-  lvgl/src/misc/lv_area.h \
-  lvgl/src/misc/lv_timer.h \
-  lvgl/src/misc/lv_event.h \
   lvgl/src/core/lv_group.h \
-  lvgl/src/core/lv_group.h \
-  lvgl/src/indev/lv_indev.h \
-  lvgl/src/core/lv_refr.h \
+  lvgl/src/core/lv_indev.h \
   lvgl/src/core/lv_obj.h \
-  lvgl/src/display/lv_display.h \
+  lvgl/src/hal/lv_hal_indev.h \
+  lvgl/src/core/lv_refr.h \
+  lvgl/src/core/lv_disp.h \
+  lvgl/src/core/lv_theme.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/core/lv_theme.h \
   lvgl/src/font/lv_font.h \
-  lvgl/src/font/lv_binfont_loader.h \
+  lvgl/src/font/lv_font_loader.h \
   lvgl/src/font/lv_font_fmt_txt.h \
   lvgl/src/font/lv_font.h \
-  lvgl/src/widgets/animimage/lv_animimage.h \
-  lvgl/src/widgets/image/lv_image.h \
+  lvgl/src/widgets/lv_arc.h \
   lvgl/src/lv_conf_internal.h \
   lvgl/src/core/lv_obj.h \
+  lvgl/src/widgets/lv_btn.h \
+  lvgl/src/widgets/lv_img.h \
   lvgl/src/misc/lv_fs.h \
   lvgl/src/draw/lv_draw.h \
-  lvgl/src/widgets/arc/lv_arc.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/bar/lv_bar.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/misc/lv_anim.h \
-  lvgl/src/widgets/label/lv_label.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
+  lvgl/src/widgets/lv_label.h \
   lvgl/src/font/lv_font.h \
   lvgl/src/font/lv_symbol_def.h \
-  lvgl/src/misc/lv_text.h \
+  lvgl/src/misc/lv_txt.h \
+  lvgl/src/widgets/lv_line.h \
+  lvgl/src/widgets/lv_table.h \
+  lvgl/src/widgets/lv_label.h \
+  lvgl/src/widgets/lv_checkbox.h \
+  lvgl/src/widgets/lv_bar.h \
+  lvgl/src/misc/lv_anim.h \
+  lvgl/src/widgets/lv_btn.h \
+  lvgl/src/widgets/lv_slider.h \
+  lvgl/src/widgets/lv_bar.h \
+  lvgl/src/widgets/lv_btnmatrix.h \
+  lvgl/src/widgets/lv_dropdown.h \
+  lvgl/src/widgets/lv_label.h \
+  lvgl/src/widgets/lv_roller.h \
+  lvgl/src/widgets/lv_textarea.h \
+  lvgl/src/widgets/lv_canvas.h \
+  lvgl/src/widgets/lv_img.h \
+  lvgl/src/draw/lv_draw_img.h \
+  lvgl/src/widgets/lv_switch.h \
   lvgl/src/draw/lv_draw.h \
-  lvgl/src/widgets/button/lv_button.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/calendar/lv_calendar.h \
-  lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
-  lvgl/src/widgets/calendar/lv_calendar_header_arrow.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h \
-  lvgl/src/widgets/canvas/lv_canvas.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/widgets/image/lv_image.h \
-  lvgl/src/draw/lv_draw_image.h \
-  lvgl/src/widgets/chart/lv_chart.h \
-  lvgl/src/lvgl.h \
-  lvgl/lvgl.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/widgets/checkbox/lv_checkbox.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/dropdown/lv_dropdown.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/widgets/label/lv_label.h \
-  lvgl/src/widgets/image/lv_image.h \
-  lvgl/src/widgets/imgbtn/lv_imgbtn.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/keyboard/lv_keyboard.h \
-  lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h \
-  lvgl/src/widgets/label/lv_label.h \
-  lvgl/src/widgets/led/lv_led.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/line/lv_line.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/list/lv_list.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/menu/lv_menu.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/msgbox/lv_msgbox.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/roller/lv_roller.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/label/lv_label.h \
-  lvgl/src/widgets/scale/lv_scale.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/slider/lv_slider.h \
-  lvgl/src/widgets/bar/lv_bar.h \
-  lvgl/src/widgets/span/lv_span.h \
-  lvgl/lvgl.h \
-  lvgl/src/widgets/spinbox/lv_spinbox.h \
-  lvgl/src/widgets/textarea/lv_textarea.h \
-  lvgl/src/widgets/label/lv_label.h \
-  lvgl/src/widgets/spinner/lv_spinner.h \
-  lvgl/lvgl.h \
-  lvgl/src/widgets/switch/lv_switch.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/table/lv_table.h \
-  lvgl/src/widgets/label/lv_label.h \
-  lvgl/src/widgets/tabview/lv_tabview.h \
-  lvgl/lvgl.h \
-  lvgl/src/widgets/textarea/lv_textarea.h \
-  lvgl/src/widgets/tileview/lv_tileview.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/widgets/win/lv_win.h \
-  lvgl/lvgl.h \
-  lvgl/src/others/snapshot/lv_snapshot.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/others/sysmon/lv_sysmon.h \
-  lvgl/src/misc/lv_timer.h \
-  lvgl/src/others/observer/lv_observer.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/others/monkey/lv_monkey.h \
-  lvgl/lvgl.h \
-  lvgl/src/others/gridnav/lv_gridnav.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/others/fragment/lv_fragment.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/others/imgfont/lv_imgfont.h \
-  lvgl/lvgl.h \
-  lvgl/src/others/observer/lv_observer.h \
-  lvgl/src/others/ime/lv_ime_pinyin.h \
-  lvgl/lvgl.h \
-  lvgl/src/others/file_explorer/lv_file_explorer.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/barcode/lv_barcode.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/bin_decoder/lv_bin_decoder.h \
-  lvgl/src/draw/lv_image_decoder.h \
-  lvgl/src/libs/bmp/lv_bmp.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/libs/rle/lv_rle_decoder.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/fsdrv/lv_fsdrv.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/libs/lodepng/lv_lodepng.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/libs/libpng/lv_libpng.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/libs/gif/lv_gif.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/qrcode/lv_qrcode.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/tjpgd/lv_tjpgd.h \
-  lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h \
-  lvgl/src/lv_conf_internal.h \
-  lvgl/src/libs/freetype/lv_freetype.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/rlottie/lv_rlottie.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/ffmpeg/lv_ffmpeg.h \
-  lvgl/lvgl.h \
-  lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h \
-  lvgl/lvgl.h \
-  lvgl/src/layouts/lv_layout.h \
-  lvgl/src/draw/lv_draw.h \
-  lvgl/src/draw/lv_draw_vector.h \
-  lvgl/src/draw/lv_draw.h \
-  lvgl/src/misc/lv_array.h \
-  lvgl/src/themes/lv_theme.h \
-  lvgl/src/core/lv_obj.h \
-  lvgl/src/themes/default/lv_theme_default.h \
-  lvgl/src/themes/lv_theme.h \
-  lvgl/src/themes/mono/lv_theme_mono.h \
-  lvgl/src/themes/lv_theme.h \
-  lvgl/src/themes/basic/lv_theme_basic.h \
-  lvgl/src/themes/lv_theme.h \
-  lvgl/src/display/lv_display.h \
   lvgl/src/lv_api_map.h \
   lvgl/lvgl.h \
-  lvgl/src/dev/sdl/lv_sdl_window.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/indev/lv_indev.h \
-  lvgl/src/dev/sdl/lv_sdl_mouse.h \
-  lvgl/src/dev/sdl/lv_sdl_window.h \
-  lvgl/src/dev/sdl/lv_sdl_mousewheel.h \
-  lvgl/src/dev/sdl/lv_sdl_keyboard.h \
-  lvgl/src/dev/x11/lv_x11.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/indev/lv_indev.h \
-  lvgl/src/dev/display/drm/lv_linux_drm.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/dev/display/fb/lv_linux_fbdev.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/dev/nuttx/lv_nuttx_entry.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/indev/lv_indev.h \
-  lvgl/src/dev/nuttx/lv_nuttx_fbdev.h \
-  lvgl/src/dev/nuttx/lv_nuttx_touchscreen.h \
-  lvgl/src/dev/nuttx/lv_nuttx_lcd.h \
-  lvgl/src/dev/nuttx/lv_nuttx_libuv.h \
-  lvgl/src/dev/evdev/lv_evdev.h \
-  lvgl/src/indev/lv_indev.h \
-  lvgl/src/core/lv_global.h \
-  lvgl/src/misc/lv_cache.h \
-  lvgl/src/misc/lv_cache_builtin.h \
-  lvgl/src/misc/lv_ll.h \
-  lvgl/src/draw/sw/lv_draw_sw.h \
-  lvgl/src/draw/lv_draw.h \
-  lvgl/src/misc/lv_area.h \
-  lvgl/src/misc/lv_color.h \
-  lvgl/src/display/lv_display.h \
-  lvgl/src/osal/lv_os.h \
-  lvgl/src/draw/lv_draw_vector.h \
-  lvgl/src/draw/sw/blend/lv_draw_sw_blend.h \
-  lvgl/src/draw/sw/lv_draw_sw_mask.h \
-  lvgl/src/misc/lv_area.h \
-  lvgl/src/misc/lv_color.h \
-  lvgl/src/misc/lv_math.h \
-  lvgl/src/misc/lv_color.h \
-  lvgl/src/misc/lv_area.h \
-  lvgl/src/misc/lv_style.h \
-  lvgl/src/misc/lv_color_op.h \
-  lvgl/src/misc/lv_ll.h \
-  lvgl/src/misc/lv_log.h \
-  lvgl/src/misc/lv_profiler_builtin.h \
-  lvgl/src/misc/lv_timer.h \
-  lvgl/src/others/sysmon/lv_sysmon.h \
-  lvgl/src/stdlib/builtin/lv_tlsf.h \
+  lvgl/src/extra/lv_extra.h \
+  lvgl/src/extra/layouts/lv_layouts.h \
+  lvgl/src/extra/layouts/flex/lv_flex.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/layouts/grid/lv_grid.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/libs/lv_libs.h \
+  lvgl/src/extra/libs/bmp/lv_bmp.h \
   lvgl/src/lv_conf_internal.h \
-  lvgl/src/osal/lv_os.h \
-  lvgl/src/misc/lv_ll.h \
-  lvgl/src/tick/lv_tick.h \
-  lvgl/src/layouts/lv_layout.h
+  lvgl/src/extra/libs/fsdrv/lv_fsdrv.h \
+  lvgl/src/lv_conf_internal.h \
+  lvgl/src/extra/libs/png/lv_png.h \
+  lvgl/src/lv_conf_internal.h \
+  lvgl/src/extra/libs/gif/lv_gif.h \
+  lvgl/src/lvgl.h \
+  lvgl/lvgl.h \
+  lvgl/src/extra/libs/qrcode/lv_qrcode.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/libs/sjpg/lv_sjpg.h \
+  lvgl/src/extra/libs/freetype/lv_freetype.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/libs/rlottie/lv_rlottie.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/others/lv_others.h \
+  lvgl/src/extra/others/snapshot/lv_snapshot.h \
+  lvgl/src/lv_conf_internal.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/others/monkey/lv_monkey.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/others/gridnav/lv_gridnav.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/others/fragment/lv_fragment.h \
+  lvgl/src/lv_conf_internal.h \
+  lvgl/src/extra/others/imgfont/lv_imgfont.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/others/msg/lv_msg.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/others/ime/lv_ime_pinyin.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/themes/lv_themes.h \
+  lvgl/src/extra/themes/default/lv_theme_default.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/themes/mono/lv_theme_mono.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/themes/basic/lv_theme_basic.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/widgets/lv_widgets.h \
+  lvgl/src/extra/widgets/animimg/lv_animimg.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/calendar/lv_calendar.h \
+  lvgl/src/widgets/lv_btnmatrix.h \
+  lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h \
+  lvgl/src/extra/widgets/chart/lv_chart.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/keyboard/lv_keyboard.h \
+  lvgl/src/widgets/lv_btnmatrix.h \
+  lvgl/src/extra/widgets/list/lv_list.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/layouts/flex/lv_flex.h \
+  lvgl/src/extra/widgets/menu/lv_menu.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/widgets/msgbox/lv_msgbox.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/meter/lv_meter.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/spinbox/lv_spinbox.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/spinner/lv_spinner.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/tabview/lv_tabview.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/tileview/lv_tileview.h \
+  lvgl/src/core/lv_obj.h \
+  lvgl/src/extra/widgets/win/lv_win.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/led/lv_led.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h \
+  lvgl/src/lvgl.h \
+  lvgl/src/extra/widgets/span/lv_span.h \
+  lvgl/src/lvgl.h
 
 
-lvgl/src/draw/sw/lv_draw_sw.h:
+lvgl/src/extra/widgets/span/lv_span.h:
 
-lvgl/src/misc/lv_cache_builtin.h:
+lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h:
 
-lvgl/src/dev/nuttx/lv_nuttx_touchscreen.h:
+lvgl/src/extra/widgets/tabview/lv_tabview.h:
 
-lvgl/src/dev/nuttx/lv_nuttx_fbdev.h:
+lvgl/src/extra/widgets/meter/lv_meter.h:
 
-lvgl/src/dev/display/fb/lv_linux_fbdev.h:
+lvgl/src/extra/widgets/msgbox/lv_msgbox.h:
 
-lvgl/src/dev/display/drm/lv_linux_drm.h:
+lvgl/src/extra/widgets/chart/lv_chart.h:
 
-lvgl/src/dev/sdl/lv_sdl_keyboard.h:
+lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
 
-lvgl/src/dev/sdl/lv_sdl_mousewheel.h:
+lvgl/src/extra/widgets/calendar/lv_calendar.h:
 
-lvgl/src/dev/sdl/lv_sdl_mouse.h:
+lvgl/src/extra/widgets/spinbox/lv_spinbox.h:
 
-lvgl/src/themes/basic/lv_theme_basic.h:
+lvgl/src/extra/themes/basic/lv_theme_basic.h:
 
-lvgl/src/draw/lv_draw_vector.h:
+lvgl/src/extra/themes/mono/lv_theme_mono.h:
 
-lvgl/src/libs/qrcode/lv_qrcode.h:
+lvgl/src/extra/themes/lv_themes.h:
 
-lvgl/src/libs/fsdrv/lv_fsdrv.h:
+lvgl/src/extra/others/msg/lv_msg.h:
 
-lvgl/src/dev/evdev/lv_evdev.h:
+lvgl/src/extra/others/imgfont/lv_imgfont.h:
 
-lvgl/src/libs/rle/lv_rle_decoder.h:
+lvgl/src/extra/others/gridnav/lv_gridnav.h:
 
-lvgl/src/libs/bin_decoder/lv_bin_decoder.h:
+lvgl/src/extra/others/snapshot/lv_snapshot.h:
 
-lvgl/src/libs/barcode/lv_barcode.h:
+lvgl/src/extra/others/lv_others.h:
 
-lvgl/src/others/ime/lv_ime_pinyin.h:
+lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h:
 
-lvgl/src/others/gridnav/lv_gridnav.h:
+lvgl/src/extra/libs/rlottie/lv_rlottie.h:
 
-lvgl/src/others/monkey/lv_monkey.h:
+lvgl/src/extra/widgets/spinner/lv_spinner.h:
 
-lvgl/src/others/sysmon/lv_sysmon.h:
+lvgl/src/extra/libs/freetype/lv_freetype.h:
 
-lvgl/src/others/snapshot/lv_snapshot.h:
-
-lvgl/src/widgets/tabview/lv_tabview.h:
-
-lvgl/src/widgets/switch/lv_switch.h:
-
-lvgl/src/libs/libpng/lv_libpng.h:
-
-lvgl/src/widgets/textarea/lv_textarea.h:
-
-lvgl/src/widgets/spinbox/lv_spinbox.h:
-
-lvgl/src/widgets/scale/lv_scale.h:
-
-lvgl/src/widgets/roller/lv_roller.h:
-
-lvgl/src/widgets/msgbox/lv_msgbox.h:
-
-lvgl/src/widgets/line/lv_line.h:
-
-lvgl/src/widgets/keyboard/lv_keyboard.h:
-
-lvgl/src/widgets/imgbtn/lv_imgbtn.h:
-
-lvgl/src/widgets/dropdown/lv_dropdown.h:
+lvgl/src/extra/libs/sjpg/lv_sjpg.h:
 
 lvgl/src/lvgl.h:
 
-lvgl/src/widgets/calendar/lv_calendar_header_dropdown.h:
+lvgl/src/extra/libs/png/lv_png.h:
 
-lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.h:
+lvgl/src/extra/libs/lv_libs.h:
 
-lvgl/src/widgets/calendar/lv_calendar_header_arrow.h:
+lvgl/src/extra/layouts/grid/lv_grid.h:
 
-lvgl/src/widgets/tileview/lv_tileview.h:
+lvgl/src/extra/layouts/lv_layouts.h:
 
-lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.h:
+lvgl/src/widgets/lv_switch.h:
 
-lvgl/src/widgets/button/lv_button.h:
+lvgl/src/widgets/lv_canvas.h:
 
-lvgl/src/widgets/label/lv_label.h:
+lvgl/src/widgets/lv_textarea.h:
 
-lvgl/src/widgets/arc/lv_arc.h:
+lvgl/src/widgets/lv_roller.h:
 
-lvgl/src/font/lv_binfont_loader.h:
+lvgl/src/extra/libs/fsdrv/lv_fsdrv.h:
+
+lvgl/src/widgets/lv_dropdown.h:
+
+lvgl/src/widgets/lv_btnmatrix.h:
+
+lvgl/src/widgets/lv_slider.h:
+
+lvgl/src/extra/others/fragment/lv_fragment.h:
+
+lvgl/src/widgets/lv_bar.h:
+
+lvgl/src/widgets/lv_line.h:
+
+lvgl/src/widgets/lv_label.h:
+
+lvgl/src/extra/libs/bmp/lv_bmp.h:
+
+lvgl/src/widgets/lv_img.h:
+
+lvgl/src/widgets/lv_btn.h:
+
+lvgl/src/widgets/lv_arc.h:
+
+lvgl/src/font/lv_font_loader.h:
+
+lvgl/src/core/lv_disp.h:
 
 lvgl/src/core/lv_refr.h:
 
-lvgl/src/libs/tjpgd/lv_tjpgd.h:
+lvgl/src/extra/others/ime/lv_ime_pinyin.h:
+
+lvgl/src/core/lv_indev.h:
 
 lvgl/src/core/lv_group.h:
 
-lvgl/src/core/lv_obj_class.h:
+lvgl/src/core/lv_event.h:
 
-lvgl/src/themes/default/lv_theme_default.h:
+lvgl/src/core/lv_obj_class.h:
 
 lvgl/src/core/lv_obj_style_gen.h:
 
-lvgl/src/widgets/slider/lv_slider.h:
+lvgl/src/core/lv_obj_tree.h:
 
-lvgl/src/core/lv_obj_pos.h:
+lvgl/src/core/lv_obj.h:
 
-lvgl/src/draw/lv_draw_mask.h:
+lvgl/src/hal/lv_hal_indev.h:
 
-lvgl/src/draw/lv_draw_line.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h:
 
-lvgl/src/draw/lv_draw_arc.h:
-
-lvgl/src/draw/lv_draw_image.h:
-
-lvgl/src/draw/sw/lv_draw_sw_gradient.h:
-
-lvgl/src/dev/sdl/lv_sdl_window.h:
-
-lvgl/src/libs/rlottie/lv_rlottie.h:
-
-lvgl/src/draw/lv_draw_rect.h:
+lvgl/src/extra/libs/qrcode/lv_qrcode.h:
 
 lvgl/src/core/lv_obj_scroll.h:
 
 lvgl/src/misc/lv_fs.h:
-
-lvgl/src/draw/lv_image_buf.h:
-
-lvgl/src/draw/lv_image_decoder.h:
-
-lvgl/src/stdlib/builtin/lv_tlsf.h:
-
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h:
-
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h:
-
-lvgl/src/widgets/led/lv_led.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/sched.h:
 
@@ -568,9 +437,9 @@ lvgl/src/core/lv_obj_style.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h:
 
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h:
+lvgl/src/draw/lv_img_decoder.h:
 
-lvgl/src/libs/freetype/lv_freetype.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h:
 
@@ -582,47 +451,41 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h:
 
+lvgl/src/extra/layouts/flex/lv_flex.h:
+
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/endian.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/string.h:
+
+lvgl/src/extra/libs/gif/lv_gif.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/termios.h:
 
 lib/include/lib_uart.h:
 
-lvgl/src/draw/lv_draw_buf.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/ttydefaults.h:
 
-lvgl/src/widgets/spinner/lv_spinner.h:
-
-lvgl/src/misc/lv_palette.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctl.h:
-
-lvgl/src/dev/x11/lv_x11.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h:
 
 lib/include/main.h:
 
+lvgl/src/extra/themes/default/lv_theme_default.h:
+
 lvgl/src/font/lv_symbol_def.h:
 
-lvgl/src/dev/nuttx/lv_nuttx_libuv.h:
+lvgl/src/draw/lv_draw_line.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/environments.h:
 
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_posix_opt.h:
+lvgl/src/extra/widgets/tileview/lv_tileview.h:
 
-lvgl/src/widgets/image/lv_image.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_posix_opt.h:
 
 lvgl/lv_conf.h:
 
-lvgl/src/others/fragment/lv_fragment.h:
-
 lvgl/src/misc/lv_bidi.h:
-
-lvgl/src/core/lv_obj_event.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h:
 
@@ -634,27 +497,17 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h:
 
-lvgl/src/stdlib/lv_sprintf.h:
-
-lvgl/src/themes/mono/lv_theme_mono.h:
-
 lvgl/src/misc/lv_style.h:
 
-lvgl/src/widgets/canvas/lv_canvas.h:
+lvgl/src/extra/widgets/animimg/lv_animimg.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h:
 
-lvgl/src/tick/lv_tick.h:
-
-lvgl/src/indev/lv_indev.h:
-
-lvgl/src/core/lv_obj_property.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h:
 
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+lvgl/src/widgets/lv_table.h:
 
-lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h:
 
@@ -670,15 +523,17 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
 
-lvgl/src/misc/lv_profiler_builtin.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/pthread.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/ioctl.h:
 
+lvgl/src/extra/widgets/lv_widgets.h:
+
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdarg.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h:
+
+lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/errno.h:
 
@@ -688,35 +543,25 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/g
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h:
 
+lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
+
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h:
 
-lvgl/src/widgets/bar/lv_bar.h:
+lvgl/src/draw/lv_draw_img.h:
 
 main.c:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h:
 
-lvgl/src/dev/nuttx/lv_nuttx_lcd.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h:
-
-lvgl/src/themes/lv_theme.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdint.h:
 
-lvgl/src/lv_init.h:
-
-lvgl/src/others/file_explorer/lv_file_explorer.h:
-
 lvgl/src/misc/lv_types.h:
-
-lvgl/src/widgets/span/lv_span.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
 
-lvgl/src/draw/sw/blend/lv_draw_sw_blend.h:
-
-lvgl/src/misc/lv_text.h:
+lvgl/src/draw/sw/lv_draw_sw_dither.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h:
 
@@ -724,19 +569,23 @@ lvgl/src/core/lv_obj_draw.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/time.h:
 
-lvgl/src/others/observer/lv_observer.h:
+lvgl/src/extra/widgets/win/lv_win.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h:
 
+lvgl/src/widgets/lv_checkbox.h:
+
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/spi/spidev.h:
 
-lvgl/src/draw/lv_draw_triangle.h:
+lvgl/src/extra/widgets/led/lv_led.h:
 
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h:
+lvgl/src/draw/lv_draw_rect.h:
+
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h:
+
+lvgl/src/extra/others/monkey/lv_monkey.h:
 
 lvgl/src/misc/lv_ll.h:
-
-lvgl/src/layouts/flex/lv_flex.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h:
 
@@ -744,7 +593,11 @@ lib/include/lib_gpio.h:
 
 lib/include/lcd.h:
 
+lvgl/src/hal/lv_hal_tick.h:
+
 lib/include/lcd_init.h:
+
+lvgl/src/draw/lv_draw.h:
 
 lvgl/src/font/lv_font.h:
 
@@ -752,11 +605,11 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/types.h:
 
+lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
+
 lib/include/lib_spi.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/types.h:
-
-lvgl/src/widgets/animimage/lv_animimage.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sched.h:
 
@@ -764,13 +617,7 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/bitsperlong.h:
 
-lvgl/src/others/imgfont/lv_imgfont.h:
-
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h:
-
-lvgl/src/misc/lv_event.h:
-
-lvgl/src/libs/bmp/lv_bmp.h:
+lvgl/src/extra/lv_extra.h:
 
 lvgl/src/draw/lv_draw_label.h:
 
@@ -778,19 +625,15 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 lvgl/src/misc/lv_anim.h:
 
-lvgl/src/misc/lv_cache.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/posix_types.h:
+
+lvgl/src/extra/widgets/menu/lv_menu.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/linux/stddef.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctls.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/posix_types.h:
-
-lvgl/src/layouts/lv_layout.h:
-
-lvgl/src/widgets/win/lv_win.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h:
 
@@ -800,13 +643,7 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctl.h:
 
-lvgl/src/osal/lv_os_none.h:
-
-lvgl/src/widgets/checkbox/lv_checkbox.h:
-
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctls.h:
-
-lvgl/src/widgets/chart/lv_chart.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h:
 
@@ -818,17 +655,9 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctl-types.h:
 
-lvgl/src/libs/lodepng/lv_lodepng.h:
-
 lvgl/lvgl.h:
 
-lvgl/src/draw/sw/lv_draw_sw_mask.h:
-
-lvgl/src/font/lv_font_fmt_txt.h:
-
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h:
-
-luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdbool.h:
+lvgl/src/misc/lv_log.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/signal.h:
 
@@ -836,60 +665,62 @@ luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-r
 
 lvgl/src/lv_conf_internal.h:
 
-lvgl/src/widgets/table/lv_table.h:
-
-lvgl/src/widgets/calendar/lv_calendar.h:
-
-lvgl/src/misc/lv_profiler.h:
-
 lvgl/src/lv_conf_kconfig.h:
 
-lvgl/src/stdlib/lv_string.h:
+lvgl/src/font/lv_font_fmt_txt.h:
 
-lvgl/src/draw/lv_draw.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h:
 
-lvgl/src/stdlib/lv_mem.h:
-
-lvgl/src/misc/lv_log.h:
-
-lvgl/src/core/lv_global.h:
-
-lvgl/src/dev/nuttx/lv_nuttx_entry.h:
-
-lvgl/src/lv_api_map.h:
-
-lvgl/src/misc/lv_timer.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/lib/gcc/arm-rockchip830-linux-uclibcgnueabihf/8.3.0/include/stdbool.h:
 
 luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h:
 
 lvgl/src/misc/lv_math.h:
 
-lvgl/src/display/lv_display.h:
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h:
 
-lvgl/src/misc/lv_color_op.h:
+lvgl/src/draw/lv_img_buf.h:
 
-lvgl/src/misc/lv_array.h:
-
-lvgl/src/libs/ffmpeg/lv_ffmpeg.h:
+lvgl/src/misc/lv_mem.h:
 
 lvgl/src/misc/lv_async.h:
 
 lvgl/src/misc/lv_anim_timeline.h:
 
-lvgl/src/core/lv_obj.h:
+lvgl/src/hal/lv_hal_disp.h:
 
-lvgl/src/libs/gif/lv_gif.h:
+lvgl/src/extra/widgets/list/lv_list.h:
+
+lvgl/src/hal/lv_hal.h:
 
 lvgl/src/misc/lv_assert.h:
 
-lvgl/src/widgets/menu/lv_menu.h:
+lvgl/src/lv_api_map.h:
 
-lvgl/src/layouts/grid/lv_grid.h:
+lvgl/src/misc/lv_timer.h:
+
+lvgl/src/misc/lv_printf.h:
+
+lvgl/src/draw/lv_draw_transform.h:
+
+lvgl/src/misc/lv_txt.h:
 
 lvgl/src/misc/lv_style_gen.h:
 
-lvgl/src/widgets/list/lv_list.h:
+lvgl/src/draw/sw/lv_draw_sw_gradient.h:
 
-lvgl/src/core/lv_obj_tree.h:
+lvgl/src/core/lv_theme.h:
 
-lvgl/src/osal/lv_os.h:
+lvgl/src/draw/lv_img_cache.h:
+
+lvgl/src/core/lv_obj_pos.h:
+
+luckfox-pico-s/tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/arm-rockchip830-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h:
+
+lvgl/src/draw/lv_draw_triangle.h:
+
+lvgl/src/draw/lv_draw_arc.h:
+
+lvgl/src/draw/lv_draw_mask.h:
+
+lvgl/src/draw/lv_draw_layer.h:
