@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/duya25446/luckfox_lvgl/CMakeFiles/lib_src.dir/DependInfo.cmake"
   "/home/duya25446/luckfox_lvgl/CMakeFiles/lvgl_src.dir/DependInfo.cmake"
+  "/home/duya25446/luckfox_lvgl/CMakeFiles/lvgl_lv.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

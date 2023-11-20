@@ -94,6 +94,9 @@ build/main: CMakeFiles/main.dir/main.c.o
 build/main: CMakeFiles/main.dir/build.make
 build/main: build/liblib_src.a
 build/main: build/liblvgl_src.a
+build/main: build/liblvgl_lv.a
+build/main: build/liblib_src.a
+build/main: build/liblvgl_src.a
 build/main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/duya25446/luckfox_lvgl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable build/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

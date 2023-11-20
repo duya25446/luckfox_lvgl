@@ -11,10 +11,16 @@
 								color       Ҫ������ɫ
       ����ֵ��  ��
 ******************************************************************************/
+void setArrayToValue(uint16_t *array, size_t length) {
+    for (size_t i = 0; i < length; i++) {
+        *(array+i) = *(array+i)>>8 | *(array+i)<<8;
+    }
+}
 void LCD_Fill(uint16_t xsta,uint16_t ysta,uint16_t xend,uint16_t yend,uint16_t *buffer)
 {
-	LCD_Address_Set(xsta,ysta,xend-1,yend-1);
-	auto_split_transfer(hspi0,(uint8_t *)buffer,xend*yend*2);
+	LCD_Address_Set(xsta,ysta,xend,yend);
+	setArrayToValue(buffer,(xend-xsta+1)*(yend-ysta+1)*2);
+	auto_split_transfer(hspi0,(uint8_t *)buffer,(xend-xsta+1)*(yend-ysta+1)*2);
 	// uint8_t *begin = (uint8_t *)buffer;
 	// uint8_t *end = (uint8_t *)buffer + 240*240*2;
 	// while (begin < end) 

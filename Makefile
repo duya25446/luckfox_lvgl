@@ -143,6 +143,19 @@ lvgl_src/fast:
 .PHONY : lvgl_src/fast
 
 #=============================================================================
+# Target rules for targets named lvgl_lv
+
+# Build rule for target.
+lvgl_lv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl_lv
+.PHONY : lvgl_lv
+
+# fast build rule for target.
+lvgl_lv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl_lv.dir/build.make CMakeFiles/lvgl_lv.dir/build
+.PHONY : lvgl_lv/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -274,6 +287,30 @@ lib/src/lib_uart.s: lib/src/lib_uart.c.s
 lib/src/lib_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib_src.dir/build.make CMakeFiles/lib_src.dir/lib/src/lib_uart.c.s
 .PHONY : lib/src/lib_uart.c.s
+
+lvgl/lv_port_disp.o: lvgl/lv_port_disp.c.o
+.PHONY : lvgl/lv_port_disp.o
+
+# target to build an object file
+lvgl/lv_port_disp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl_lv.dir/build.make CMakeFiles/lvgl_lv.dir/lvgl/lv_port_disp.c.o
+.PHONY : lvgl/lv_port_disp.c.o
+
+lvgl/lv_port_disp.i: lvgl/lv_port_disp.c.i
+.PHONY : lvgl/lv_port_disp.i
+
+# target to preprocess a source file
+lvgl/lv_port_disp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl_lv.dir/build.make CMakeFiles/lvgl_lv.dir/lvgl/lv_port_disp.c.i
+.PHONY : lvgl/lv_port_disp.c.i
+
+lvgl/lv_port_disp.s: lvgl/lv_port_disp.c.s
+.PHONY : lvgl/lv_port_disp.s
+
+# target to generate assembly for a file
+lvgl/lv_port_disp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl_lv.dir/build.make CMakeFiles/lvgl_lv.dir/lvgl/lv_port_disp.c.s
+.PHONY : lvgl/lv_port_disp.c.s
 
 lvgl/src/core/lv_group.o: lvgl/src/core/lv_group.c.o
 .PHONY : lvgl/src/core/lv_group.o
@@ -5972,6 +6009,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lib_src"
+	@echo "... lvgl_lv"
 	@echo "... lvgl_src"
 	@echo "... main"
 	@echo "... lib/src/lcd.o"
@@ -5989,6 +6027,9 @@ help:
 	@echo "... lib/src/lib_uart.o"
 	@echo "... lib/src/lib_uart.i"
 	@echo "... lib/src/lib_uart.s"
+	@echo "... lvgl/lv_port_disp.o"
+	@echo "... lvgl/lv_port_disp.i"
+	@echo "... lvgl/lv_port_disp.s"
 	@echo "... lvgl/src/core/lv_group.o"
 	@echo "... lvgl/src/core/lv_group.i"
 	@echo "... lvgl/src/core/lv_group.s"

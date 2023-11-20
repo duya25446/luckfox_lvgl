@@ -1,5 +1,6 @@
 /home/duya25446/luckfox_lvgl/CMakeFiles/lib_src.dir
 /home/duya25446/luckfox_lvgl/CMakeFiles/lvgl_src.dir
+/home/duya25446/luckfox_lvgl/CMakeFiles/lvgl_lv.dir
 /home/duya25446/luckfox_lvgl/CMakeFiles/main.dir
 /home/duya25446/luckfox_lvgl/CMakeFiles/edit_cache.dir
 /home/duya25446/luckfox_lvgl/CMakeFiles/rebuild_cache.dir

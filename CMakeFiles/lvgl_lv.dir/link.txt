@@ -1,0 +1,2 @@
+/usr/bin/ar qc build/liblvgl_lv.a CMakeFiles/lvgl_lv.dir/lvgl/lv_port_disp.c.o
+/usr/bin/ranlib build/liblvgl_lv.a

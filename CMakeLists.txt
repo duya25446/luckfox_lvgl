@@ -31,9 +31,8 @@ SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 # 包含目录
 include_directories(lib/include)
 include_directories(.)
-
 # 设置LVGL_DIR变量
-set(LVGL_DIR ${CMAKE_SOURCE_DIR}/lvgl)
+set(LVGL_DIR ${CMAKE_SOURCE_DIR}/lvgl/)
 
 # 递归查找头文件并存储到HEADER_FILES变量中
 file(GLOB_RECURSE HEADER_FILES
@@ -63,11 +62,14 @@ aux_source_directory(. DIR_SRCS)
 # 递归查找LVGL/src目录下的源文件并存储到LVGL_SRC变量中
 file(GLOB_RECURSE LVGL_SRC "./lvgl/src/*.c")
 
+aux_source_directory(./lvgl lv)
 # 创建名为lib_src的库并添加DIR_LIB_SRCS中的源文件
 add_library (lib_src ${DIR_LIB_SRCS})
 
 # 创建名为lvgl_src的库并添加LVGL_SRC中的源文件
 add_library (lvgl_src ${LVGL_SRC})
+
+add_library(lvgl_lv ${lv})
 
 # 创建名为main的可执行文件并添加main.c和DIR_SRCS中的源文件
 add_executable(main
@@ -75,4 +77,5 @@ add_executable(main
 )
 
 # 将lib_src和lvgl_src库链接到main可执行文件
-target_link_libraries(main lib_src lvgl_src)
+target_link_libraries(lvgl_lv lib_src lvgl_src)
+target_link_libraries(main lib_src lvgl_src lvgl_lv)

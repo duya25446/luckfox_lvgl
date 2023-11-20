@@ -45,5 +45,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lib_src.dir/DependInfo.cmake"
   "CMakeFiles/lvgl_src.dir/DependInfo.cmake"
+  "CMakeFiles/lvgl_lv.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )
