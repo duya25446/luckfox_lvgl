@@ -8,7 +8,7 @@
  *      INCLUDES
  *********************/
 #include "lv_ll.h"
-#include "../stdlib/lv_mem.h"
+#include "lv_mem.h"
 
 /*********************
  *      DEFINES
@@ -68,7 +68,7 @@ void * _lv_ll_ins_head(lv_ll_t * ll_p)
 {
     lv_ll_node_t * n_new;
 
-    n_new = lv_malloc(ll_p->n_size + LL_NODE_META_SIZE);
+    n_new = lv_mem_alloc(ll_p->n_size + LL_NODE_META_SIZE);
 
     if(n_new != NULL) {
         node_set_prev(ll_p, n_new, NULL);       /*No prev. before the new head*/
@@ -104,7 +104,7 @@ void * _lv_ll_ins_prev(lv_ll_t * ll_p, void * n_act)
         if(n_new == NULL) return NULL;
     }
     else {
-        n_new = lv_malloc(ll_p->n_size + LL_NODE_META_SIZE);
+        n_new = lv_mem_alloc(ll_p->n_size + LL_NODE_META_SIZE);
         if(n_new == NULL) return NULL;
 
         lv_ll_node_t * n_prev;
@@ -127,7 +127,7 @@ void * _lv_ll_ins_tail(lv_ll_t * ll_p)
 {
     lv_ll_node_t * n_new;
 
-    n_new = lv_malloc(ll_p->n_size + LL_NODE_META_SIZE);
+    n_new = lv_mem_alloc(ll_p->n_size + LL_NODE_META_SIZE);
 
     if(n_new != NULL) {
         node_set_next(ll_p, n_new, NULL);       /*No next after the new tail*/
@@ -188,7 +188,7 @@ void _lv_ll_remove(lv_ll_t * ll_p, void * node_p)
  * Remove and free all elements from a linked list. The list remain valid but become empty.
  * @param ll_p pointer to linked list
  */
-void _lv_ll_clear_custom(lv_ll_t * ll_p, void(*cleanup)(void *))
+void _lv_ll_clear(lv_ll_t * ll_p)
 {
     void * i;
     void * i_next;
@@ -198,13 +198,10 @@ void _lv_ll_clear_custom(lv_ll_t * ll_p, void(*cleanup)(void *))
 
     while(i != NULL) {
         i_next = _lv_ll_get_next(ll_p, i);
-        if(cleanup == NULL) {
-            _lv_ll_remove(ll_p, i);
-            lv_free(i);
-        }
-        else {
-            cleanup(i);
-        }
+
+        _lv_ll_remove(ll_p, i);
+        lv_mem_free(i);
+
         i = i_next;
     }
 }

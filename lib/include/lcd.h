@@ -17,7 +17,7 @@ void LCD_ShowIntNum(uint16_t x,uint16_t y,uint16_t num,uint8_t len,uint16_t fc,u
 void LCD_ShowFloatNum1(uint16_t x,uint16_t y,float num,uint8_t len,uint16_t fc,uint16_t bc,uint8_t sizey);
 
 void LCD_ShowPicture(uint16_t x,uint16_t y,uint16_t length,uint16_t width,const uint8_t pic[]);
-
+//LCD_Fill(area->x1,area->y1,area->x2,area->y2,(uint16_t*)px_map);
 
 //������ɫ
 #define WHITE         	 0xFFFF
